@@ -1,16 +1,49 @@
 <html>
   <head>
     <title>marco.coffee</title>
+	
+	<style>
+		body {
+			height: 100%;
+			font-size: 4em;
+		}
+		
+		.outer {
+			height: 100%;
+			width: 100%;
+		}
+	
+		.body {
+			position: fixed;
+			bottom: 50%;
+			left: 35%;
+			margin-left: auto;
+			margin-right: auto;
+			text-align: left;
+		}
+		
+		.sig {
+			position: fixed;
+			bottom: 0;
+			right: 10%;
+			margin-right: auto;
+			text-align: right;
+		}
+	</style>
   </head>
   <body>
-    <p>
-      Dear <a href="http://www.marco.org/">Marco</a>,<br />
-      Coffee sucks.<br />
-    </p>
-    <p>
-      Love,<br />
-      <a href="http://www.caseyliss.com/">Casey</a>
-    </p>
+	  <div class="outer">
+	    <p>
+	      Dear <a href="http://www.marco.org/">Marco</a>,
+			</p>
+	    <p class="body">
+		  	Coffee sucks.
+	    </p>
+	    <p class="sig">
+	      Love,<br />
+	      <a href="http://www.caseyliss.com/">Casey</a>
+	    </p>
+	  </div>
   </body>
 </html>
       
